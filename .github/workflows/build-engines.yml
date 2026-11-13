@@ -5,7 +5,7 @@ name: build-engines
 # and `targets` inputs select which matrix legs actually run.
 #
 # synctex is intentionally absent: it's built into each engine and the JS
-# parser in src/synctex/ covers standalone parsing (see CLAUDE.md).
+# parser in src/synctex/ covers standalone parsing.
 
 on:
   workflow_dispatch:

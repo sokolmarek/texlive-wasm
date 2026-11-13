@@ -58,5 +58,5 @@ bash scripts/biber/spike-build.sh cpan-lock   # rewrites cpan-lock.txt
 
 All six engines (pdflatex, xelatex, lualatex, bibtexu, xdvipdfmx, makeindex)
 build and pass their smoke tests for the emscripten target; pdflatex also
-builds for wasi. See the status table in the repo-root `CLAUDE.md` and the
+builds for wasi. See the status table in the repo-root `README.md` and the
 roadmap in `../plan.md`.

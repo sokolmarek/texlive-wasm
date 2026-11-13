@@ -28,7 +28,7 @@ PATCHES    := $(ROOT)/patches
 
 # Engines we build for v1. synctex is deliberately absent: it's compiled into
 # each engine and standalone parsing is JS-side (src/synctex/) — a standalone
-# synctex.wasm has no working configure wiring (see CLAUDE.md).
+# synctex.wasm has no working configure wiring.
 ENGINES_V1 := pdflatex xelatex lualatex bibtexu xdvipdfmx makeindex
 
 # Build targets.

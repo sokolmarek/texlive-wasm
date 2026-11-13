@@ -298,7 +298,7 @@ texlive-wasm/
 │   └── benchmark.ts
 ├── test/
 ├── demo/                   # vite + react playground
-└── plan.md / CLAUDE.md
+└── plan.md
 ```
 
 ### Build matrix (CI)
