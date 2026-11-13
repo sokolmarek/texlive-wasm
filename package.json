@@ -5,11 +5,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/typeward/texlive-wasm.git"
+    "url": "git+https://github.com/sokolmarek/texlive-wasm.git"
   },
-  "homepage": "https://github.com/typeward/texlive-wasm#readme",
+  "homepage": "https://github.com/sokolmarek/texlive-wasm#readme",
   "bugs": {
-    "url": "https://github.com/typeward/texlive-wasm/issues"
+    "url": "https://github.com/sokolmarek/texlive-wasm/issues"
   },
   "type": "module",
   "engines": {

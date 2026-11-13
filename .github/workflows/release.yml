@@ -298,7 +298,7 @@ jobs:
           generate_release_notes: true
 
   # npm trusted publishing (OIDC) — no NPM_TOKEN secret anywhere. One-time
-  # setup on npmjs.com: trusted publisher for repo typeward/texlive-wasm,
+  # setup on npmjs.com: trusted publisher for repo sokolmarek/texlive-wasm,
   # workflow release.yml, with "publish only via trusted publisher" enabled.
   # Provenance attestations are generated automatically under trusted
   # publishing (requires npm CLI >= 11.5.1).
@@ -316,7 +316,7 @@ jobs:
     # deliberate republish are the only two ways in.
     if: >-
       always() &&
-      github.repository == 'typeward/texlive-wasm' &&
+      github.repository == 'sokolmarek/texlive-wasm' &&
       (needs.pack-and-release.result == 'success' ||
        (inputs.publish_only && needs.pack-and-release.result == 'skipped'))
     runs-on: ubuntu-latest

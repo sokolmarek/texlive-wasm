@@ -65,7 +65,7 @@ export function App() {
           TeX Live 2026 · seven engines · 100% in your browser
         </span>
         <a
-          href="https://github.com/typeward/texlive-wasm"
+          href="https://github.com/sokolmarek/texlive-wasm"
           style={{ 'margin-left': 'auto', color: '#cdd7e5', 'font-size': '13px' }}
         >
           GitHub →

@@ -13,9 +13,9 @@ for it, so `createEngine()` throws outside a Worker-capable host. Treat that
 target as experimental and unpublished (see the table below).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Live demo](https://img.shields.io/badge/live%20demo-typeward.github.io%2Ftexlive--wasm-2f3e55)](https://typeward.github.io/texlive-wasm/)
+[![Live demo](https://img.shields.io/badge/live%20demo-sokolmarek.github.io%2Ftexlive--wasm-2f3e55)](https://sokolmarek.github.io/texlive-wasm/)
 
-**[Try it in your browser →](https://typeward.github.io/texlive-wasm/)** — all seven
+**[Try it in your browser →](https://sokolmarek.github.io/texlive-wasm/)** — all seven
 engines, compiled client-side, no server.
 
 ## Engines
@@ -61,7 +61,7 @@ npx @typeward/texlive-wasm download-assets --tag v0.1.0-alpha.0 ./static/texlive
 npx @typeward/texlive-wasm download-assets --assets pdflatex-emscripten,icudt78l.dat
 ```
 
-The CLI looks up `https://github.com/typeward/texlive-wasm/releases/download/<tag>/checksums.json`,
+The CLI looks up `https://github.com/sokolmarek/texlive-wasm/releases/download/<tag>/checksums.json`,
 verifies SHA-256 of every downloaded blob against it, and unpacks the
 `tar.gz` files into the destination.
 

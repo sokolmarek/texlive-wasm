@@ -1,6 +1,6 @@
 # demo/ — the showcase site
 
-SolidJS + Vite app deployed to **https://typeward.github.io/texlive-wasm/**.
+SolidJS + Vite app deployed to **https://sokolmarek.github.io/texlive-wasm/**.
 It is the reference consumer of the `texlive-wasm` npm API: every compile
 goes through `latexmk()` / `createEngine()` with one Web Worker per engine
 (see `src/engine-manager.ts`) — no hand-rolled Emscripten driving.

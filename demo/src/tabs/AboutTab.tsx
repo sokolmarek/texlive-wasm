@@ -82,8 +82,8 @@ export function AboutTab() {
       </ul>
 
       <p style={{ 'font-size': '14px' }}>
-        <a href="https://github.com/typeward/texlive-wasm">GitHub repository</a> ·{' '}
-        <a href="https://github.com/typeward/texlive-wasm#install">Install &amp; usage docs</a> ·
+        <a href="https://github.com/sokolmarek/texlive-wasm">GitHub repository</a> ·{' '}
+        <a href="https://github.com/sokolmarek/texlive-wasm#install">Install &amp; usage docs</a> ·
         MIT-licensed wrapper; engine artifacts inherit their TeX Live licenses.
       </p>
     </div>

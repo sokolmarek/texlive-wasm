@@ -32,7 +32,7 @@ const { pipeline } = require('node:stream/promises');
 const { Readable, Writable } = require('node:stream');
 const { createGunzip } = require('node:zlib');
 
-const REPO_OWNER = process.env.TEXLIVE_WASM_REPO_OWNER || 'typeward';
+const REPO_OWNER = process.env.TEXLIVE_WASM_REPO_OWNER || 'sokolmarek';
 const REPO_NAME = process.env.TEXLIVE_WASM_REPO_NAME || 'texlive-wasm';
 
 // Published TDS bundle names (scripts/pack-tds.mjs → scripts/pack-release.mjs).
